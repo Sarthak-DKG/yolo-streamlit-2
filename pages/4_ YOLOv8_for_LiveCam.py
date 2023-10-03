@@ -1,3 +1,12 @@
+# ------------------------------------------------------------------------------
+#  <copyright file="Home.py" company="DKGLabs Pvt Ltd">
+#      Copyright (c) DKGLabs Pvt Ltd. All Rights Reserved.
+#      Information Contained Herein is Proprietary and Confidential.
+#  </copyright>
+#  ------------------------------------------------------------------------------
+
+
+
 import streamlit as st 
 from streamlit_webrtc import webrtc_streamer
 import av
