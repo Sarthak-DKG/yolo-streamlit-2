@@ -34,4 +34,4 @@ Once installed, run the app using
 
 ## Screenshots
 
-![App Screenshot](https://github.com/DKG-Labs/rnd-projects/blob/main/YOLO_Detection/Screenshots/Screenshot%202023-09-27%20at%201.54.12%20PM.png)
+![App Screenshot](https://github.com/Sarthak-DKG/yolo-streamlit-2/blob/main/Screenshots/Sample%20Output.png)
