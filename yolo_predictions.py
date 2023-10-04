@@ -1,13 +1,9 @@
 # ------------------------------------------------------------------------------
-#  <copyright file="Home.py" company="DKGLabs Pvt Ltd">
+#  <copyright file="yolo_predictions.py" company="DKGLabs Pvt Ltd">
 #      Copyright (c) DKGLabs Pvt Ltd. All Rights Reserved.
 #      Information Contained Herein is Proprietary and Confidential.
 #  </copyright>
 #  ------------------------------------------------------------------------------
-
-
-
-
 
 #!/usr/bin/env python
 # coding: utf-8
