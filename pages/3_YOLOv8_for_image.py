@@ -1,12 +1,10 @@
 # ------------------------------------------------------------------------------
-#  <copyright file="Home.py" company="DKGLabs Pvt Ltd">
+#  <copyright file="YOLOv8_for_image.py" company="DKGLabs Pvt Ltd">
 #      Copyright (c) DKGLabs Pvt Ltd. All Rights Reserved.
 #      Information Contained Herein is Proprietary and Confidential.
 #  </copyright>
 #  ------------------------------------------------------------------------------
 
-
-# Import required libraries
 import PIL
 from utils import Utils
 import streamlit as st
