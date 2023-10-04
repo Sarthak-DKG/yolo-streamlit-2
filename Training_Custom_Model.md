@@ -38,5 +38,7 @@ from ultralytics import YOLO
 import torch
 model.load_state_dict(torch.load({LOCATION}/model.pth))
 ```
-
+#
+#
+Refer to the following Colab Notebook : [YOLOv8 Training](https://colab.research.google.com/drive/1gJ0EDmQp7wP1d1kkcf342UOk3tahsfs3?usp=sharing)
 
