@@ -1,11 +1,9 @@
 # ------------------------------------------------------------------------------
-#  <copyright file="Home.py" company="DKGLabs Pvt Ltd">
+#  <copyright file="YOLOv8_for_LiveCam.py" company="DKGLabs Pvt Ltd">
 #      Copyright (c) DKGLabs Pvt Ltd. All Rights Reserved.
 #      Information Contained Herein is Proprietary and Confidential.
 #  </copyright>
 #  ------------------------------------------------------------------------------
-
-
 
 import streamlit as st 
 from streamlit_webrtc import webrtc_streamer
