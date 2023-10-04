@@ -1,11 +1,9 @@
 # ------------------------------------------------------------------------------
-#  <copyright file="Home.py" company="DKGLabs Pvt Ltd">
+#  <copyright file="YOLOv8_for_VideoFile.py" company="DKGLabs Pvt Ltd">
 #      Copyright (c) DKGLabs Pvt Ltd. All Rights Reserved.
 #      Information Contained Herein is Proprietary and Confidential.
 #  </copyright>
 #  ------------------------------------------------------------------------------
-
-
 
 # import streamlit as st
 import cv2
