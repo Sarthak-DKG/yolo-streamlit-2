@@ -1,13 +1,9 @@
 # ------------------------------------------------------------------------------
-#  <copyright file="Home.py" company="DKGLabs Pvt Ltd">
+#  <copyright file="requirements.txt" company="DKGLabs Pvt Ltd">
 #      Copyright (c) DKGLabs Pvt Ltd. All Rights Reserved.
 #      Information Contained Herein is Proprietary and Confidential.
 #  </copyright>
 #  ------------------------------------------------------------------------------
-
-
-
-
 
 streamlit
 streamlit-webrtc
