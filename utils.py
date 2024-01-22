@@ -41,6 +41,9 @@ class Utils:
     data_yaml = ""
     model_root = ""
     model_folders = []
+    dataList = []
+    objectList = []
+    detectionClasses = []
     model_folder_files = {}
 
     @classmethod 
@@ -77,3 +80,26 @@ class Utils:
     @classmethod
     def print_model(self):
         print(Utils.onnx_model,"*", Utils.data_yaml)
+
+    @classmethod
+    def set_object_list(self,objList):
+        Utils.objectList = objList
+        print(Utils.objectList)
+
+    @classmethod
+    def get_object_list(self):
+        return Utils.objectList
+    
+    @classmethod
+    def set_yaml_data_list(self,recievedList):
+        Utils.dataList = recievedList
+        print(Utils.dataList)
+
+    @classmethod
+    def get_yaml_data_list(self):
+        return Utils.dataList
+    
+    @classmethod
+    def return_detection_list(self):
+        Utils.detectionClasses = list(map(lambda x: Utils.dataList.index(x), Utils.objectList))
+        return Utils.detectionClasses
