@@ -45,12 +45,27 @@ if model_selected != None:
         st.write("This model helps in detecting using Yolo V5")
     else:
         st.markdown(
-            """
-            # - [Image Detection](/YOLOv8_for_image/)
-            # - [Live Camera Detection](/YOLOv8_for_LiveCam/) 
-            # - [Video Detection](/YOLOv8_for_Video/)
-                        """
+            '<a href="/YOLOv8_for_image" target="_self">Image Detection</a>',
+            unsafe_allow_html=True,
         )
+        st.markdown(
+            '<a href="/YOLOv8_for_LiveCam" target="_self">LiveCam Detection</a>',
+            unsafe_allow_html=True,
+        )
+
+        st.markdown(
+            '<a href="/YOLOv8_for_Video" target="_self">Video Detection</a>',
+            unsafe_allow_html=True,
+        )
+
+        # st.markdown(
+        #     """
+        #     # - <a href="/YOLOv8_for_image/" target="_self"> Image Detection </a>
+        #     # - [Image Detection](/YOLOv8_for_image/)
+        #     # - [Live Camera Detection](/YOLOv8_for_LiveCam/)
+        #     # - [Video Detection](/YOLOv8_for_Video/)
+        #                 """
+        # )
         st.write("This model helps in detecting using Yolo V8")
 
     with open(Utils.get_yaml(), "r") as file1:
